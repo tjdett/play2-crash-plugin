@@ -8,7 +8,8 @@ object ApplicationBuild extends Build {
   val appVersion      = "0.1.0"
 
   val appDependencies = Seq(
-    "org.crsh" % "crsh.shell.core" % "1.2+"
+    "org.crsh" % "crsh.shell.core" % "1.2+",
+    "org.slf4j" % "slf4j-jdk14" % "1.+" % "test"
   )
 
   val main = play.Project(appName, appVersion, appDependencies).settings()
