@@ -1,8 +1,8 @@
 language: java
 env:
-  - PLAY_VERSION=2.1.4
+  - PLAY_VERSION=2.2.0
 scala:
- - 2.10.2
+ - 2.10.3
 before_script: 
  - wget http://downloads.typesafe.com/play/${PLAY_VERSION}/play-${PLAY_VERSION}.zip
  - unzip -q play-${PLAY_VERSION}.zip 

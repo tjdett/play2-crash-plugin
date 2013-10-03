@@ -5,7 +5,7 @@ import play.Project._
 object ApplicationBuild extends Build {
 
   val appName         = "play2-crash-plugin"
-  val appVersion      = "0.1.1"
+  val appVersion      = "0.2.0"
 
   val appDependencies = Seq(
     "org.crsh" % "crsh.shell.core" % "1.2+",
